@@ -26,4 +26,10 @@ public class TestObj {
 		System.out.println(list);
 	}
 
+	public String substr(){
+		System.out.println("123");
+		//456
+		//789 00
+		return null;
+	}
 }

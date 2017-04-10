@@ -21,7 +21,7 @@ public class Test {
 	
 	public String substr(){
 		System.out.println("123");
-		//456
+		
 		//789 00
 		return null;
 	}
