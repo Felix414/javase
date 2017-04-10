@@ -20,6 +20,7 @@ public class Test {
 	}
 	
 	public String substr(){
+		System.out.println("123");
 		return null;
 	}
 
