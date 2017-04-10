@@ -18,5 +18,9 @@ public class Test {
 		}
 
 	}
+	
+	public String substr(){
+		return null;
+	}
 
 }
