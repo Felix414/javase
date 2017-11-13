@@ -5,8 +5,10 @@ import java.util.Random;
 public class TestRandom {
 	
 	public static void main(String[] args) {
-		for(int i=0;i<10;i++)
-			method2();
+//		for(int i=0;i<10;i++)
+//			method2();
+		
+		ramdomColor();
 	}
 	
 	static void method() {
@@ -52,5 +54,15 @@ public class TestRandom {
 		}
 		result += "À¶ÇòºÅÂë:"+blue[r.nextInt(blue.length)];
 		System.out.println(result);
+	}
+	
+	static void ramdomColor() {
+		String a[] = {"0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"};
+		int l = a.length;
+		Random r = new Random();
+		for(int i=0;i<30;i++){
+			System.out.println(a[r.nextInt(l)]+a[r.nextInt(l)]+a[r.nextInt(l)]+a[r.nextInt(l)]+a[r.nextInt(l)]+a[r.nextInt(l)]);
+		}
+		
 	}
 }

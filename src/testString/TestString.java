@@ -16,7 +16,7 @@ public class TestString {
 	public static void main(String[] args) {
 		// testSplit();
 		// testSubString();
-		// testindexOf();
+		 testindexOf();
 		// testScore(0,31);
 		// testreplayspan();
 		// testsplit();
@@ -27,11 +27,16 @@ public class TestString {
 	}
 
 	static void testindexOf() {
-		String str = "http://183.59.152.135:8082/EPG/jsp/defaultsdcctv/en/page/http://183.59.152.135:8082/EPG/jsp/defaultsdcctv/en/page/index.jsp";
+		/*String str = "http://183.59.152.135:8082/EPG/jsp/defaultsdcctv/en/page/http://183.59.152.135:8082/EPG/jsp/defaultsdcctv/en/page/index.jsp";
 		String s = "http://183.59.152.135:8082/EPG/jsp/defaultsdcctv/en/page/";
 		System.out.println(str.indexOf(s));
 		System.out.println(str.lastIndexOf(s));
-		System.out.println(str.substring(str.lastIndexOf(s)));
+		System.out.println(str.substring(str.lastIndexOf(s)));*/
+		
+		String s = "aa-bb";
+		String[] a = s.split("-");
+		System.out.println(java.util.Arrays.toString(a));
+		System.out.println(a.length);
 	}
 
 	static void testSplit() {
