@@ -16,14 +16,16 @@ public class TestString {
 	public static void main(String[] args) {
 		// testSplit();
 		// testSubString();
-		 testindexOf();
+		// testindexOf();
 		// testScore(0,31);
 		// testreplayspan();
 		// testsplit();
 		// testRandom();
 		// testcount();
-		//testSplitUrl();
+		// testSplitUrl();
 		// testsplit2();
+	
+		
 	}
 
 	static void testindexOf() {
@@ -75,9 +77,12 @@ public class TestString {
 	}
 
 	static void testsplit() {
-		String[] array = "3477|3308|3432".split("\\|");
+//		String[] array = "3477|3308|3432".split("\\|");
+//		System.out.println(array.length);
+//		System.out.println(array[new Random().nextInt(array.length)]);
+		
+		String[] array = "3477 3308".split(" ");
 		System.out.println(array.length);
-		System.out.println(array[new Random().nextInt(array.length)]);
 	}
 
 	static void testRandom() {
@@ -124,6 +129,7 @@ public class TestString {
 	static void testsplit2() {
 		String str = "http://125.88.70.86:8082/EPG/jsp/defaultwg/en/epgToThird.jsp?para_info=<type>back</type>";
 		System.out.println(str.split("\\?")[0]);
+		
 	}
 
 

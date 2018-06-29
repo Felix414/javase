@@ -10,7 +10,7 @@ public class TestDate {
 	public static void main(String[] args) {
 
 		//dateformate("20170630235959", "yyyyMMddHHmmss");
-		getDays("20180521");
+		getDays("20181130");
 	}
 
 	static void dateformate(String date, String format) {

@@ -8,7 +8,13 @@ public class TestRandom {
 //		for(int i=0;i<10;i++)
 //			method2();
 		
-		ramdomColor();
+		//ramdomColor();
+		/*Random r = new Random();
+		for(int i=0;i<100;i++){
+			int t = r.nextInt(2);
+			System.out.print(t);
+		}*/
+		System.out.println(1+2+"java"+3+4);
 	}
 	
 	static void method() {
